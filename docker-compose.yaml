@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  nodeA:
+    image: ndn-node
+    container_name: nodeA
+    ports:
+      - "3232:80"
+
+  nodeB:
+    image: ndn-node
+    container_name: nodeB
+    ports:
+      - "3333:80"
+
+  nodeC:
+    image: ndn-node
+    container_name: nodeC
+    ports:
+      - "3434:80"

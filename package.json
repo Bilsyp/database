@@ -1,0 +1,20 @@
+{
+  "name": "test-ndn-multi-node",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@ndn/autoconfig": "^0.0.20240630",
+    "@ndn/endpoint": "^0.0.20240630",
+    "@ndn/fw": "^0.0.20240630",
+    "@ndn/quic-transport": "^0.0.20240630"
+  }
+}
